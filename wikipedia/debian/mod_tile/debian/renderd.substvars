@@ -1,0 +1,2 @@
+shlibs:Depends=libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libmapnik2-2.0, libstdc++6 (>= 4.2.1), renderd
+misc:Depends=
