@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 19 Oct 2012 11:00:00 +0000
+Source: openstreetmap-mapnik-stylesheet-data
+Binary: openstreetmap-mapnik-stylesheet-data
+Architecture: source all
+Version: 0.2-r27589~1
+Distribution: precise
+Urgency: low
+Maintainer: Kai Krueger <kakrueger@gmail.com>
+Changed-By: Kai Krueger <kakrueger@gmail.com>
+Description: 
+ openstreetmap-mapnik-stylesheet-data - Provides a stylesheet and costline data for rendering OpenStreetM
+Changes: 
+ openstreetmap-mapnik-stylesheet-data (0.2-r27589~1) precise; urgency=low
+ .
+    * openstreetmap-mapnik-stylesheet-data Update to mapnik 2
+Checksums-Sha1: 
+ fe33862f022018a2213d09cb0f8781c5d90a2b62 1258 openstreetmap-mapnik-stylesheet-data_0.2-r27589~1.dsc
+ b70554c21e583c0dab1264fe6a76630091e9ac3f 179473 openstreetmap-mapnik-stylesheet-data_0.2-r27589~1.tar.gz
+ a131dfe5d9fcd7cd91fb07253e8d71ad8bbd4da1 173180 openstreetmap-mapnik-stylesheet-data_0.2-r27589~1_all.deb
+Checksums-Sha256: 
+ baabf2695f2e234215a43b8233c0d4aaa07e5d810146b6c2d4fab3315aa4a2e1 1258 openstreetmap-mapnik-stylesheet-data_0.2-r27589~1.dsc
+ 8d899d88f3322c097a9b7274d58e4ea05d847812287d2779358de931f509afef 179473 openstreetmap-mapnik-stylesheet-data_0.2-r27589~1.tar.gz
+ 700987ecdde494386f7062bc5f21725529d10ae0b4480fe161eece9691d32e7e 173180 openstreetmap-mapnik-stylesheet-data_0.2-r27589~1_all.deb
+Files: 
+ d3169269597c7bac8a92926135100ad9 1258 utils optional openstreetmap-mapnik-stylesheet-data_0.2-r27589~1.dsc
+ 9dc971f4a45f10543940ec68f590339a 179473 utils optional openstreetmap-mapnik-stylesheet-data_0.2-r27589~1.tar.gz
+ 3e3d19fa5c57f64524b44ab0ef2b2025 173180 utils optional openstreetmap-mapnik-stylesheet-data_0.2-r27589~1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJQgbUzAAoJEPwZDcNnq5LE7kYIALKpccwdErtpzVMRqTRwd59O
+68HB8RY8schkVy1OIoqfwErVj2JvDngIz0ZfuXpcKtPUSDgiIXsLICiNMmxqnYXn
+2W1joWCxygn4Ij0OtjHuZU76+g4X3mt/a7HJ6uNHp+pd9MfODKG/suuIZyFxvgHN
+MxDfSSxi1NCx7/950RmLse/NG8Tj839SBaLkZLpm292RdsuavJxXpYJPky9dafAP
+UE4rBVzmUjXe3EotA6eibHF5SvG6Kx4lhgJBxi5S0peeQx7Db86uAu0mM5INUMhO
+8p1Qq1FABh1jpnq2Gez7fD3TgIXxLk+dvKUuffv+bP5+tQqVKOIvrZRgPAbj8i0=
+=kyoi
+-----END PGP SIGNATURE-----
