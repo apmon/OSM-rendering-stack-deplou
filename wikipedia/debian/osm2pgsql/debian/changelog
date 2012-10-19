@@ -1,0 +1,5 @@
+osm2pgsql (0.81.0-1~1) precise; urgency=low
+
+  * Initial packaging for precise
+
+ -- Kai Krueger <kakrueger@gmail.com>  Fri, 19 Oct 2012 10:00:00 +0000

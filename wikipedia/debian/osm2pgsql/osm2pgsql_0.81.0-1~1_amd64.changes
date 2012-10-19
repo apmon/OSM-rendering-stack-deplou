@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 19 Oct 2012 10:00:00 +0000
+Source: osm2pgsql
+Binary: osm2pgsql
+Architecture: source amd64
+Version: 0.81.0-1~1
+Distribution: precise
+Urgency: low
+Maintainer: Frederik Ramm <frederik@remote.org>
+Changed-By: Kai Krueger <kakrueger@gmail.com>
+Description: 
+ osm2pgsql  - Openstreetmap data to PostgreSQL converter
+Changes: 
+ osm2pgsql (0.81.0-1~1) precise; urgency=low
+ .
+   * Initial packaging for precise
+Checksums-Sha1: 
+ 32d2500288a735d3c60c176237679f42b8ce7b9b 1210 osm2pgsql_0.81.0-1~1.dsc
+ c63fe14bacde326eebd3e4d032d475d94676b4a1 172779 osm2pgsql_0.81.0-1~1.tar.gz
+ bf997383622139559c0d45dcbc8de6b32f9bf8cd 103070 osm2pgsql_0.81.0-1~1_amd64.deb
+Checksums-Sha256: 
+ 661e52685e6bbf57af70a3563cb598d2f4b87956d6a54ef385d8390c6125db93 1210 osm2pgsql_0.81.0-1~1.dsc
+ 7e1ed02fbae70a0b36748eb22178a6767ec6fcd2c1f566eacbe54a5068b6453f 172779 osm2pgsql_0.81.0-1~1.tar.gz
+ 9f4d8764994f7690fef5a3e11927426f634d3c263d2d9bd351282d9b8715ecc0 103070 osm2pgsql_0.81.0-1~1_amd64.deb
+Files: 
+ b95a3fc059e21d27ceea08bb2164968c 1210 utils optional osm2pgsql_0.81.0-1~1.dsc
+ e1f0a77df0df401498af04bf75e061f4 172779 utils optional osm2pgsql_0.81.0-1~1.tar.gz
+ da0fcb2ce0dbf19f111b840495cf184f 103070 utils optional osm2pgsql_0.81.0-1~1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQEcBAEBAgAGBQJQgaUdAAoJEPwZDcNnq5LEPCYH/in3/3vWLwSVvMYPnH9rm/Wp
+qOnyHFxx3zTRZuQY9ye+f3oby4syK0+K/LlZYajg06o9XV2DkJjKK/YGfZX1Zton
+w4MQHxP4jLsHGu4BpCADVoTq3prTv8bw8+JF63Gt4VmKf+BK3Q2Bc4rDUDymtP4+
+YL9fm0Lg94Lt50VOZUIVBIXDgUlbG335kt0kIKKKM6lTFvfR4q52TjjkhprouM+p
+k5hmh5fL02O82GvXslcaXUZq8a7Hd/cjjkxF9wZylqG5F9v/qR2ou75wprL+mBFE
+oHPg9tdT3Ew94oJCKfzIrys/c/Tl7LKA8Sd1Rw1aLwdHTjkl1JlTUTw/7rJp7Uk=
+=IaYd
+-----END PGP SIGNATURE-----
