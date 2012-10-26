@@ -37,10 +37,7 @@ class postgresql {
 
     user { "osm":
       ensure => present,
-      home => "/tmp/home/osm",
       shell => "/bin/bash",
-      managehome => "true",
-      
     }
 
     postgres::createuser { "osm": }

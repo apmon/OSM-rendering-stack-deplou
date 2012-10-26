@@ -1,7 +1,7 @@
 class osmtileserver {
   
   package {
-    [ "libapache2-mod-tile", "renderd", "openstreetmap-mapnik-stylesheet-data", "osmosis" ]:
+    [ "libapache2-mod-tile", "renderd", "openstreetmap-mapnik-stylesheet-data", "osmosis", "osm2pgsql" ]:
       ensure => latest,
   }
 
@@ -24,10 +24,10 @@ class osmtileserver {
 
   cron { "osm_db_update":
     ensure  => present,
-    command => "/tmp/home/osm/tools/load-next > /dev/null 2>&1",
+    command => "/usr/bin/openstreetmap-update-db > /dev/null 2>&1",
     user => "osm",
     minute => [5, 20, 35, 50],
-    require => File["/tmp/home/osm/tools/load-next"],
+    require => File["/usr/bin/openstreetmap-update-db"],
   }
   
   file {
@@ -100,18 +100,9 @@ class osmtileserver {
       source => "puppet:///files/openstreetmap/osmosis.configuration.txt",
       require => Package["osmosis"],
   }
-
-  file { "/tmp/home/osm/tools/":
-    ensure => directory, # so make this a directory
-    recurse => true, # enable recursive directory management
-    owner => "osm",
-    group => "osm",
-    mode => 0644, # this mode will also apply to files from the source directory
-    require => User["osm"],
-  }
   
 
-  file { "/tmp/home/osm/tools/logs":
+  file { "/var/log/osm/":
     ensure => directory, # so make this a directory
     recurse => true, # enable recursive directory management
     owner => "osm",
@@ -120,19 +111,15 @@ class osmtileserver {
     require => User["osm"],
   }
 
-  file { "/tmp/home/osm/tools/import-planet":
-    owner => osm,
-    group => osm,
-    mode => 0744,
+  file { "/usr/bin/openstreetmap-import-planet":
+    mode => 0755,
     source => "puppet:///files/openstreetmap/import-planet",
     require => User["osm"],
   
   }
 
-  file { "/tmp/home/osm/tools/load-next":
-    owner => osm,
-    group => osm,
-    mode => 0744,
+  file { "/usr/bin/openstreetmap-update-db":
+    mode => 0755,
     source => "puppet:///files/openstreetmap/load-next",
     require => User["osm"],
   }
