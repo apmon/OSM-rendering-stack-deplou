@@ -1,3 +1,9 @@
+osm2pgsql (0.81.0-1~2) precise; urgency=low
+
+  * Recompile for precise
+
+ -- Kai Krueger <kakrueger@gmail.com>  Thu, 25 Oct 2012 10:00:00 +0000
+
 osm2pgsql (0.81.0-1~1) precise; urgency=low
 
   * Initial packaging for precise
