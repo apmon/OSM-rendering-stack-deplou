@@ -2,7 +2,7 @@
 
 PLANET_FILE=$1
 OSM2PGSQL_BIN=osm2pgsql
-LOG_FILE=/tmp/import.log
+LOG_FILE=/var/log/osm/import.log
 OSMOSIS_WORKDIR=/var/lib/mod_tile/.osmosis
 
 sudo -u osm touch $OSMOSIS_WORKDIR/stop.txt
@@ -11,7 +11,7 @@ sudo -u osm touch $OSMOSIS_WORKDIR/stop.txt
 
 sudo -u osm $OSM2PGSQL_BIN --create --slim -C 1600 --number-processes=2 --hstore-all -d osm_mapnik $PLANET_FILE 2> $LOG_FILE
 
-sudo -u osm touch /var/lib/mod_tile/planet-import-complete
+sudo -u www-data touch /var/lib/mod_tile/planet-import-complete
 
 sudo -u osm mkdir $OSMOSIS_WORKDIR || true
 #sudo -u osm osmosis --read-replication-interval-init workingDirectory=$OSMOSIS_WORKDIR

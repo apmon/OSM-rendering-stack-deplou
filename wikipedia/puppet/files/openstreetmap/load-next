@@ -20,10 +20,10 @@ STYLE=/usr/share/osm2pgsql/osm2pgsql/default.style
 #JAVACMD_OPTIONS="-Dhttp.proxyHost=ha-proxy.esi -Dhttp.proxyPort=8080"
 #export JAVACMD_OPTIONS
 
-OSMOSISLOG=logs/osmosis.log
-PSQLLOG=logs/osm2pgsql.log
-EXPIRYLOG=logs/expiry.log
-RUNLOG=logs/run.log
+OSMOSISLOG=/var/log/osm/osmosis.log
+PSQLLOG=/var/log/osm/osm2pgsql.log
+EXPIRYLOG=/var/log/osm/expiry.log
+RUNLOG=/var/log/osm/run.log
 
 CURRENT=/tmp/osm-load-next.$$.osc
 EXPIRE=1
@@ -120,7 +120,7 @@ cp /dev/null "$EXPIRYLOG"
 for STYLE in 'default' ; do
 	echo -e "\nexpiring style $STYLE" >> "$EXPIRYLOG"
 	
- 	if ! $RENDER_EXPIRED --map=$STYLE --socket=$MOD_TILE_SOCKET --min-zoom=15 --touch-from=15 --tile-dir=$TILEDIR < "$EXPIRE_LIST" 2>&1 | tail -8 >> "$EXPIRYLOG"; then
+ 	if ! $RENDER_EXPIRED --map=$STYLE --socket=$MOD_TILE_SOCKET --min-zoom=12 --touch-from=12 --tile-dir=$TILEDIR < "$EXPIRE_LIST" 2>&1 | tail -8 >> "$EXPIRYLOG"; then
  		m_error "tile_expiry error"
  	fi
 done
