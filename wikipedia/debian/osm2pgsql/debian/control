@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Frederik Ramm <frederik@remote.org>
 Build-Depends: debhelper (>= 7), libgeos-dev, libxml2-dev, libpq-dev, proj | libproj0, libbz2-dev, automake, autoconf, libtool, protobuf-c-compiler, libprotobuf-c0-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 
 Package: osm2pgsql
 Architecture: any
