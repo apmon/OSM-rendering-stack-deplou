@@ -1,7 +1,7 @@
 libapache2-mod-tile (0.4-12~raring1) raring; urgency=low
   * Initial raring package
 
- -- Kai Krueger <kakrueger@gmail.com>  Sat, 08 Dec 2012 00:00:00 +0000
+ -- Kai Krueger <kakrueger@gmail.com>  Mon, 28 Jan 2013 00:00:00 +0000
 
 libapache2-mod-tile (0.4-12~precise2) precise; urgency=low
   * fixed renderd.conf to use mapnik 2.0 plugins dir
