@@ -1,3 +1,10 @@
+libapache2-mod-tile (0.4-14~raring1) raring; urgency=low
+  * Update from upstream (29305)
+  * Link against mapnik 2.1 which was added to the PPA repository
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sat, 02 Mar 2013 00:00:00 +0000
+
+
 libapache2-mod-tile (0.4-12~raring1) raring; urgency=low
   * Initial raring package
 
