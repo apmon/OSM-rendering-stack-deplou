@@ -1,9 +1,9 @@
-osm2pgsql (0.81.0-1~raring1) raring; urgency=low
+osm2pgsql (0.81.0-1~raring3) raring; urgency=low
 
-  * Update from upstream to svn version 29056
+  * Update from upstream to svn version 29089
   * initial raring packaging
 
- -- Kai Krueger <kakrueger@gmail.com>  Sat, 8 Dec 2012 10:00:00 +0000
+ -- Kai Krueger <kakrueger@gmail.com>  Mon, 28 Jan 2013 10:00:00 +0000
 
 osm2pgsql (0.80.0-13~precise1) precise; urgency=low
 
