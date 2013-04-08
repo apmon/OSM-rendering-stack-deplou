@@ -1,3 +1,12 @@
+libapache2-mod-tile (0.4-17~precise2) precise; urgency=low
+
+  * update from upstream ( 54f668537a )
+  * Add support for pluggable backends
+  * Support for Platte Carree projection
+
+ -- Kai Krueger <kakrueger@gmail.com>  Mon, 07 Apr 2013 00:00:00 +0000
+
+
 libapache2-mod-tile (0.4-16~precise1) precise; urgency=low
 
   * update from upstream
