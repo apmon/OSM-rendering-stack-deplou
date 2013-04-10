@@ -1,3 +1,11 @@
+osm2pgsql (0.81.0-3~1) precise; urgency=low
+
+  * update from upstream (bbe0de0e9d)
+
+ -- Kai Krueger <kakrueger@gmail.com>  Wed, 10 Apr 2013 10:00:00 +0000
+
+
+
 osm2pgsql (0.81.0-2~1) precise; urgency=low
 
   * New upstream release
