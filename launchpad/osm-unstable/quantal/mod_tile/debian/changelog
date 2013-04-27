@@ -1,3 +1,9 @@
+libapache2-mod-tile (0.4-18~quantal1) quantal; urgency=low
+
+  * update from upstream ( 1341e129e5 )
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sat, 27 Apr 2013 00:00:00 +0000
+
 libapache2-mod-tile (0.4-17~quantal1) quantal; urgency=low
 
   * update from upstream ( 54f668537a )
