@@ -1,3 +1,10 @@
+osm2pgsql (0.83.0-1~raring2) raring; urgency=low
+
+  * Update from upstream to git version e8a3b4cd80232607b97
+  * Some bug fixes
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sat, 27 Apr 2013 10:00:00 +0000
+
 osm2pgsql (0.81.0-1~raring3) raring; urgency=low
 
   * Update from upstream to svn version 29089
