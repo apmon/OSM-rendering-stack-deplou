@@ -37,7 +37,7 @@ clean:
 	rm -f config.status
 	rm -f config.log
 	# Add here commands to clean up after the build process.
-	$(MAKE) clean || /bin/true
+	$(MAKE) distclean || /bin/true
 
 	dh_clean 
 

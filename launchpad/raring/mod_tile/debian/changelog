@@ -1,3 +1,12 @@
+libapache2-mod-tile (0.4-15~raring2) raring; urgency=low
+  * Update from upstream (git-1341e129e5b078e)
+  * Some bug fixes
+  * Pluggable storage backends
+  * Add support for Plate Carree projection
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sat, 27 Apr 2013 00:00:00 +0000
+
+
 libapache2-mod-tile (0.4-14~raring1) raring; urgency=low
   * Update from upstream (29305)
   * Link against mapnik 2.1 which was added to the PPA repository
