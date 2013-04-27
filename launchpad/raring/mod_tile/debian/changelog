@@ -1,3 +1,9 @@
+libapache2-mod-tile (0.4-15~raring4) raring; urgency=low
+  * Fix renderd.conf
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sat, 27 Apr 2013 00:00:02 +0000
+
+
 libapache2-mod-tile (0.4-15~raring3) raring; urgency=low
   * Fix postinstall script to not hang on updates
 
