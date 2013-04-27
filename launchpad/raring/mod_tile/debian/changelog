@@ -1,3 +1,8 @@
+libapache2-mod-tile (0.4-15~raring3) raring; urgency=low
+  * Fix postinstall script to not hang on updates
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sat, 27 Apr 2013 00:00:01 +0000
+
 libapache2-mod-tile (0.4-15~raring2) raring; urgency=low
   * Update from upstream (git-1341e129e5b078e)
   * Some bug fixes
