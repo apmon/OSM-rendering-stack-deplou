@@ -1,3 +1,9 @@
+openstreetmap-mapnik-stylesheet-data (0.2-r29292~raring1) raring; urgency=low
+
+   * set extents explicitely, as estimate extent can lead to broken rendering
+
+ -- Kai Krueger <kakrueger@gmail.com>  Mon, 28 Jan 2013 11:00:00 +0000
+
 openstreetmap-mapnik-stylesheet-data (0.2-r29214~raring1) raring; urgency=low
 
    * openstreetmap-mapnik-stylesheet-data Initial raring package

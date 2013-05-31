@@ -11,7 +11,7 @@ Note: feel free to leave password, host, port, or use blank
 <Parameter name="user">www-data</Parameter>
 <Parameter name="dbname">gis</Parameter>
 <!-- this should be 'false' if you are manually providing the 'extent' -->
-<Parameter name="estimate_extent">true</Parameter>
+<Parameter name="estimate_extent">false</Parameter>
 <!-- manually provided extent in epsg 900913 for whole globe -->
 <!-- providing this speeds up Mapnik database queries -->
-<!-- Parameter name="extent">%(extent)s</Parameter -->
+<Parameter name="extent">-20037508,-19929239,20037508,19929239</Parameter>
