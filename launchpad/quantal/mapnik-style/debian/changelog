@@ -1,3 +1,9 @@
+openstreetmap-mapnik-stylesheet-data (0.2-r29292~quantal1) quantal; urgency=low
+
+   * Set extents explicitly, as estimate extent can be broken
+
+ -- Kai Krueger <kakrueger@gmail.com>  Thu, 16 May 2013 11:00:00 +0000
+
 openstreetmap-mapnik-stylesheet-data (0.2-r29214~quantal1) quantal; urgency=low
 
    * openstreetmap-mapnik-stylesheet-data Fixed shapefile path
