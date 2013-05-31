@@ -1,3 +1,10 @@
+libapache2-mod-tile (0.4-16~raring1) raring; urgency=medium
+  * Fix a segmentation fault due to thread safety issues.
+  * other minor fixes
+
+ -- Kai Krueger <kakrueger@gmail.com>  Thu, 30 May 2013 00:00:02 +0000
+
+
 libapache2-mod-tile (0.4-15~raring4) raring; urgency=low
   * Fix renderd.conf
 
