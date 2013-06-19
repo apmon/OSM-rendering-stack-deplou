@@ -1,3 +1,9 @@
+libapache2-mod-tile (0.4-3~1) precise; urgency=low
+  * Upstream version (eae2eaec1c99f6c5759fbb4a6446372f5fbe4895)
+    * Allow timestamp to be specified to render_old as a unix timestamp
+
+ -- Kai Krueger <kakrueger@gmail.com>  Wed, 19 Jun 2013 00:00:00 +0000
+
 libapache2-mod-tile (0.4-2~1) precise; urgency=low
   * Upstream version (4e9b24daa8d35de2bfd2ee91d0c379fe90b9e743)
   * Set mapnik max_size parameter in renderd according to thread count
