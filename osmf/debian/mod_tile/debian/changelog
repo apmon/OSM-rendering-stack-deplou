@@ -1,0 +1,11 @@
+libapache2-mod-tile (0.4-2~1) precise; urgency=low
+  * Upstream version (4e9b24daa8d35de2bfd2ee91d0c379fe90b9e743)
+  * Set mapnik max_size parameter in renderd according to thread count
+
+ -- Kai Krueger <kakrueger@gmail.com>  Wed, 12 Jun 2013 00:00:00 +0000
+
+libapache2-mod-tile (0.4-1~1) precise; urgency=low
+  * Initial precise package
+  * Upstream version (r29305)
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sat, 02 Mar 2013 00:00:00 +0000
