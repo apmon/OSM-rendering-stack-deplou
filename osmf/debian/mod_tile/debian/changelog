@@ -1,3 +1,9 @@
+libapache2-mod-tile (0.4-3~2) precise; urgency=low
+  * Upstream version (86d71d50b6c657c2e760c40a1eee27e19ee59b32)
+    * support mpm-event
+
+ -- Kai Krueger <kakrueger@gmail.com>  Tue, 23 Jul 2013 00:00:00 +0000
+
 libapache2-mod-tile (0.4-3~1) precise; urgency=low
   * Upstream version (eae2eaec1c99f6c5759fbb4a6446372f5fbe4895)
     * Allow timestamp to be specified to render_old as a unix timestamp
