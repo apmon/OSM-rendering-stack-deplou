@@ -1,3 +1,10 @@
+libapache2-mod-tile (0.4-22~precise2) precise; urgency=low
+
+  * Add another priority level for style change rerendering
+  * Further fixes and improvements
+
+ -- Kai Krueger <kakrueger@gmail.com>  Tue, 27 Aug 2013 00:00:00 +0000
+
 libapache2-mod-tile (0.4-21~precise1) precise; urgency=low
 
   * Support up to zoom level 20 in renderd
