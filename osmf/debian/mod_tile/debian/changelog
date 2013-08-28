@@ -1,3 +1,12 @@
+libapache2-mod-tile (0.4-3~4) precise; urgency=low
+  * Upstream version (c483c07338ef41f9e247c2b5df082e090d21eb83)
+  * Added extra priority level between mod_tile and renderd
+  * Munin graphs now go to z20
+  * Add a munin graph for rendering time spent per queue
+  * Improve CORS support
+
+ -- Kai Krueger <kakrueger@gmail.com>  Tue, 27 Aug 2013 00:00:00 +0000
+
 libapache2-mod-tile (0.4-3~2) precise; urgency=low
   * Upstream version (86d71d50b6c657c2e760c40a1eee27e19ee59b32)
     * support mpm-event
