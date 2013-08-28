@@ -1,3 +1,17 @@
+libapache2-mod-tile (0.4-22~quantal3) quantal; urgency=low
+
+  * Add another priority level for style rerendering
+  * More fixes and improvements
+
+ -- Kai Krueger <kakrueger@gmail.com>  Tue, 27 Aug 2013 00:00:00 +0000
+
+libapache2-mod-tile (0.4-22~quantal2) quantal; urgency=low
+
+  * Fix some issues when running renderd with more than 10 threads
+  * Some additional munin scripts
+
+ -- Kai Krueger <kakrueger@gmail.com>  Tue, 13 Aug 2013 00:00:00 +0000
+
 libapache2-mod-tile (0.4-21~quantal1) quantal; urgency=low
 
   * Added support for zoom levels upto 20 in renderd
