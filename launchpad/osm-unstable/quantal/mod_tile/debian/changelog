@@ -1,3 +1,10 @@
+libapache2-mod-tile (0.4-23~quantal1) quantal; urgency=low
+
+  * Rebuild for mapnik 2.2
+  * upstream version bd9739582a047b591c88e9f82955a74817fa54fe
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sun, 06 Oct 2013 00:00:00 +0000
+
 libapache2-mod-tile (0.4-22~quantal3) quantal; urgency=low
 
   * Add another priority level for style rerendering

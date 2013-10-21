@@ -1,3 +1,18 @@
+libapache2-mod-tile (0.4-24~precise1) precise; urgency=low
+
+  * Update from upstream ( 1585e50d7adfc61ae9a823b81fbbb024a7e4c2fc )
+  * Use protocol v3 between renderd and mod_tile
+  * Support map parameterization
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sat, 19 Oct 2013 00:00:00 +0000
+
+libapache2-mod-tile (0.4-23~precise1) precise; urgency=low
+
+  * Rebuild for mapnik 2.02
+  * Upstream version bd9739582a047b591c88e9f82955a74817fa54fe
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sun, 06 Oct 2013 00:00:00 +0000
+
 libapache2-mod-tile (0.4-22~precise2) precise; urgency=low
 
   * Add another priority level for style change rerendering
