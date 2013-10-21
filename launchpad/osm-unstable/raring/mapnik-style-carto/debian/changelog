@@ -1,0 +1,5 @@
+openstreetmap-mapnik-carto-stylesheet-data (2.5.0-1~raring3) raring; urgency=low
+
+   * initial package of the carto based openstreetmap stylesheet
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sun, 20 Oct 2013 11:00:00 +0000

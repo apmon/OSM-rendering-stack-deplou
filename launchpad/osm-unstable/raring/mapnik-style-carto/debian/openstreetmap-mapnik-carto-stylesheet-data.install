@@ -1,0 +1,3 @@
+osm.xml /etc/mapnik-osm-carto-data/
+symbols/* /etc/mapnik-osm-carto-data/symbols/
+debian/openstreetmap-get-coastline-shapefiles /usr/bin/
