@@ -17,7 +17,7 @@ Package: renderd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: libapache2-mod-tile
-Recommends: osm2pgsql, openstreetmap-mapnik-stylesheet-data
+Recommends: osm2pgsql, openstreetmap-mapnik-stylesheet-data | openstreetmap-mapnik-carto-stylesheet-data
 Description: Daemon that renders map tiles using mapnik
  This daemon creates "metatiles" for map tile requests issued by mod_tile
  using the mapnik library.
