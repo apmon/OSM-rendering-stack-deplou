@@ -1,3 +1,11 @@
+libapache2-mod-tile (0.4-25~raring1) raring; urgency=low
+
+  * Update from upstream ( 6c2cb243e4c8b047950ab8062cd66245f20a5d2f )
+  * Security fix for buffer overflow on URL scanning in mod_tile
+  * Fix for render_list not correctly blocking
+  * minor other fixes.
+ -- Kai Krueger <kakrueger@gmail.com>  Wed, 12 Mar 2014 00:00:00 +0000
+
 libapache2-mod-tile (0.4-24~raring2) raring; urgency=low
 
   * Suggest carto based stylesheet
