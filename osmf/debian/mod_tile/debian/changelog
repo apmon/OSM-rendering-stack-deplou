@@ -1,3 +1,13 @@
+libapache2-mod-tile (0.4-3~6) precise; urgency=low
+  * Upstream version (6c2cb243e4c8b047950ab8062cd66245f20a5d2f)
+  * Allow for parameterization of styles, e.g. for internationalization.
+  * Fix bug in render_list not blocking
+  * Fix buffer overflow issues in mod_tile
+  * Various minor bug fixes
+
+ -- Kai Krueger <kakrueger@gmail.com>  Wed, 12 Mar 2014 00:00:00 +0000
+
+
 libapache2-mod-tile (0.4-3~4) precise; urgency=low
   * Upstream version (c483c07338ef41f9e247c2b5df082e090d21eb83)
   * Added extra priority level between mod_tile and renderd
