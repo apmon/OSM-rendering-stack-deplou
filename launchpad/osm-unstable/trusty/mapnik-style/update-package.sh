@@ -5,7 +5,7 @@ rm -rf src/.git
 cp -r debian/ src/
 
 cd src
-/usr/local/src/svn/carto-npm/node_modules/carto/bin project.mml > osm.xml
+/usr/local/src/svn/carto-npm/node_modules/carto/bin/carto project.mml > osm.xml
 debuild -S
 cd ..
 

@@ -1,3 +1,17 @@
+openstreetmap-mapnik-carto-stylesheet-data (2.13.0-1~trusty2) trusty; urgency=low
+
+   * Fix package build script
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sun, 20 Apr 2013 11:00:00 +0000
+
+openstreetmap-mapnik-carto-stylesheet-data (2.13.0-1~trusty1) trusty; urgency=low
+
+   * Fix dependency on mapnik
+   * Correct version number
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sun, 20 Apr 2013 11:00:00 +0000
+
+
 openstreetmap-mapnik-carto-stylesheet-data (2.6.0-1~trusty1) trusty; urgency=low
 
    * First trusty package
