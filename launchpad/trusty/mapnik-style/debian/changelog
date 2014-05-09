@@ -1,0 +1,18 @@
+openstreetmap-mapnik-carto-stylesheet-data (2.13.0-1~trusty2) trusty; urgency=low
+
+   * Initial trusty package
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sun, 20 Apr 2013 11:00:00 +0000
+	
+openstreetmap-mapnik-carto-stylesheet-data (2.6.0-1~saucy1) saucy; urgency=low
+
+   * Fix missing dependency on curl
+   * update stylesheet to version 2.6.0
+
+ -- Kai Krueger <kakrueger@gmail.com>  Thu, 14 Nov 2013 11:00:00 +0000
+
+openstreetmap-mapnik-carto-stylesheet-data (2.5.0-1~saucy3) saucy; urgency=low
+
+   * initial package of the carto based openstreetmap stylesheet
+
+ -- Kai Krueger <kakrueger@gmail.com>  Sun, 20 Oct 2013 11:00:00 +0000
